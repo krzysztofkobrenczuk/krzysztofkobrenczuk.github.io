@@ -63,6 +63,7 @@ of those sections to manage the look and feel of the site. */
 .navbar-default .navbar-nav>.active>a{
     color: #fff;
     background-color: #576272;
+    min-height: 55px;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -74,12 +75,23 @@ of those sections to manage the look and feel of the site. */
 .navbar-default .navbar-nav>li.active>a:focus, .navbar-default .navbar-nav>li.active>a:hover{
     color: #F05F40;
     background-color:#576272 ;
+    
 }
 .navbar-default .navbar-nav li a:visited,.navbar-default .navbar-nav li a:active {
     color: #fff;
 }
 
-
+.navbar-brand p{
+    font-size: 0.7em;
+    color: #F05F40;
+    font-weight: 600;
+    margin: 0 0 0 90px;
+    
+}
+.navbar{
+    
+    min-height: 55px;
+}
 
 
 .intro-section {
